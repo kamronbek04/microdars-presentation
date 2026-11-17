@@ -1,0 +1,24 @@
+{
+  "name": "mikrodars-matematika",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mikrodars taqdimoti: 1-sinf matematika, 1 dan 5 gacha bo'lgan sonlar bilan amallar (step-by-step web presentation from the deck kit, no map).",
+  "scripts": {
+    "dev": "vite --port 5181 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 4181",
+    "shots": "node tools/shoot.mjs --url http://localhost:5181",
+    "serve": "node tools/serve.mjs dist 4181"
+  },
+  "dependencies": {
+    "@fontsource-variable/geologica": "^5.3.0",
+    "@fontsource-variable/martian-mono": "^5.3.0",
+    "gsap": "^3.15.1",
+    "lucide": "^1.70.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.17.0",
+    "vite": "^8.3.6"
+  }
+}

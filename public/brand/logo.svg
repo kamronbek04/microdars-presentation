@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="1–5">
+  <!-- Five, as on a die: one dot in each number colour (1 coral, 2 yellow, 3 green, 4 sky, 5 purple). -->
+  <circle cx="16" cy="16" r="10" fill="#FF7A59"/>
+  <circle cx="48" cy="16" r="10" fill="#FFC93C"/>
+  <circle cx="32" cy="32" r="10" fill="#38B27A"/>
+  <circle cx="16" cy="48" r="10" fill="#69B8E7"/>
+  <circle cx="48" cy="48" r="10" fill="#9874D3"/>
+</svg>
